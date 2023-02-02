@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(https://images.unsplash.com/photo-1615237002240-8bfecfbfd7fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
   background-color: blanchedalmond;
@@ -12,9 +16,6 @@ header {
 h1 {
   font-family: "Amatic SC", cursive;
   font-size: 50px;
-}
-
-button {
 }
 
 .button {
@@ -33,6 +34,14 @@ button {
 }
 
 .button:hover {
+  background-color: #86592d;
+  color: white;
+}
+
+.list {
+  height: 100px;
+  width: 100px;
+  position: relative;
   background-color: #86592d;
   color: white;
 }

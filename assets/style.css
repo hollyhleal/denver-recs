@@ -9,9 +9,9 @@ body {
   text-align: center;
 }
 
-header {
+/* header {
   text-align: center;
-}
+} */
 
 h1 {
   font-family: "Amatic SC", cursive;
@@ -34,8 +34,8 @@ h1 {
 }
 
 .button:hover {
-  background-color: #86592d;
-  color: white;
+  background-color: white;
+  color: #86592d;
 }
 
 .list {

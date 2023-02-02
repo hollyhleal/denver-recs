@@ -9,9 +9,18 @@ body {
   text-align: center;
 }
 
-/* header {
-  text-align: center;
-} */
+nav {
+  border: 10px solid blanchedalmond;
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+
+.list-items {
+  display: inline;
+  color: #86592d;
+  padding: 10px;
+}
 
 h1 {
   font-family: "Amatic SC", cursive;
